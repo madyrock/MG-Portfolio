@@ -71,7 +71,7 @@ export default function Project({
             <button
             type="button"
             onClick={() => window.location.href = `${siteUrl}`}
-            className="bottom-4 mt-4 right-4 py-2 px-4 rounded-2xl bg-white/10 hover:bg-white/20 dark:bg-black/80 dark:hover:bg-black/60 flex justify-center items-center"
+            className="bottom-4 mt-5 right-4 py-2 px-4 rounded-2xl bg-white/10 hover:bg-white/20 dark:bg-black/80 dark:hover:bg-black/60 flex justify-center items-center"
             >
             Explore
             </button>
