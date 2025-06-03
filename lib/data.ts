@@ -83,7 +83,15 @@ export const projectsData = [
       "A stunning landing page for interior design company. It shows the company's work.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: Interio,
-    siteUrl: "https://interio.vercel.app/",
+    siteUrl: "https://interio-chi.vercel.app/",
+  },
+  {
+    title: "Interio",
+    description:
+      "A stunning landing page for interior design company. It shows the company's work.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: Interio,
+    siteUrl: "https://interio-chi.vercel.app/",
   },
 ] as const;
 
