@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  siteUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,6 +47,7 @@ export default function Project({
               </li>
             ))}
           </ul>
+
         </div>
 
         <Image
@@ -53,19 +55,26 @@ export default function Project({
           alt="Project I worked on"
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
-
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
-
-        group-even:right-[initial] group-even:-left-40"
+          transition 
+          group-hover:scale-[1.04]
+          group-hover:-translate-x-3
+          group-hover:translate-y-3
+          group-hover:-rotate-2
+          
+          group-even:group-hover:translate-x-3
+          group-even:group-hover:translate-y-3
+          group-even:group-hover:rotate-2
+          
+          group-even:right-[initial] group-even:-left-40"
         />
       </section>
+            <button
+            type="button"
+            onClick={() => window.location.href = `${siteUrl}`}
+            className="bottom-4 mt-4 right-4 py-2 px-4 rounded-2xl bg-white/10 hover:bg-white/20 dark:bg-black/80 dark:hover:bg-black/60 flex justify-center items-center"
+            >
+            Explore
+            </button>
     </motion.div>
   );
 }

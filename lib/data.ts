@@ -67,6 +67,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: EduWave,
+    siteUrl: "https://eduwave-ruddy.vercel.app",
   },
   {
     title: "RB Step-Up",
@@ -74,6 +75,7 @@ export const projectsData = [
       "An Ecommerce website. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: RBStepUp,
+    siteUrl: "https://rb-shoes.vercel.app/",
   },
   {
     title: "Interio",
@@ -81,6 +83,7 @@ export const projectsData = [
       "A stunning landing page for interior design company. It shows the company's work.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: Interio,
+    siteUrl: "https://interio.vercel.app/",
   },
 ] as const;
 
