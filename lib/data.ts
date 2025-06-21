@@ -38,8 +38,7 @@ export const experiencesData = [
     title: "Graduated bootcamp",
     location: "Online, India",
     description:
-      "Worked as a UI Developer Intern in a private company, gaining hands-on exprerience in coding. Contributed to front-end development task collaborating with the team to deliver efficient and
-user-friendly solutions",
+      "Worked as a UI Developer Intern in a private company, gaining hands-on exprerience in coding and Contributed to front-end development task.",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2021",
   },
