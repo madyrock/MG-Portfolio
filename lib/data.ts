@@ -39,20 +39,20 @@ export const experiencesData = [
     title: "Graduated bootcamp",
     location: "Online, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Worked as a UI Developer Intern in a private company, gaining hands-on exprerience in coding and Contributed to front-end development task.",
     icon: React.createElement(LuGraduationCap),
-    date: "2020",
+    date: "2020 - 2021",
   },
   {
     title: "Front-End Developer",
     location: "Lucknow, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 3 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2022",
+    date: "2021 - 2024",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full Stack Developer",
     location: "Jamnagar, India",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
