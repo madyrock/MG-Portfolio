@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import  Interio from "@/public/project2.png"
 import  RBStepUp from "@/public/project1.png"
 import  EduWave from "@/public/project3.png"
+import EliteTrainers from "@/public/project4.png"
 
 export const links = [
   {
@@ -86,12 +87,12 @@ export const projectsData = [
     siteUrl: "https://interio-chi.vercel.app/",
   },
   {
-    title: "Interio",
+    title: "Elite Trainers",
     description:
-      "A stunning landing page for interior design company. It shows the company's work.",
+      "The best platform to hire a personal trainer. It has features like filtering, sorting and payment integration.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: Interio,
-    siteUrl: "https://interio-chi.vercel.app/",
+    imageUrl: EliteTrainers,
+    siteUrl: "https://personal-trainer-rho-six.vercel.app/",
   },
 ] as const;
 
