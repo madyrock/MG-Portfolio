@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/ProfileImg.png"
+              src="/ProfileImg.jpg"
               alt="mady potrait"
               width="192"
               height="192"
