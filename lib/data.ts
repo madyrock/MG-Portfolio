@@ -92,7 +92,7 @@ export const projectsData = [
       "The best platform to hire a personal trainer. It has features like filtering, sorting and payment integration.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: EliteTrainers,
-    siteUrl: "https://personal-trainer-rho-six.vercel.app/",
+    siteUrl: "https://elitetrainers.in/",
   },
 ] as const;
 
