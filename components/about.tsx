@@ -32,7 +32,7 @@ export default function About() {
         . I am also familiar with TypeScript and NextJS. I am always looking to
         learn new technologies. I am currently pursuing Data Management with training in <span className="font-medium">
           Excel, SQL, Python and Power BI
-        </span>in looking for a{" "}
+        </span> and looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer or data manager.
       </p>
