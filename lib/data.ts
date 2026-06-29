@@ -55,7 +55,7 @@ export const experiencesData = [
   
   {
     title: "Front-End Developer",
-    location: "Jamnagar, India",
+    location: "Freelancer, India",
     description:
       "I'm now a front-end developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and Framer Motion. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
