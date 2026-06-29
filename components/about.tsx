@@ -20,9 +20,9 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Bachelor of Computer Application</span>, I decided to pursue my
+        <span className="font-medium">Bachelor of Commerce</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        <span className="font-medium">front-end web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is making
         dynamic and interactive websites. My core stack
         is{" "}
@@ -30,9 +30,11 @@ export default function About() {
           React, Next.js, Node.js, and MongoDB
         </span>
         . I am also familiar with TypeScript and NextJS. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        learn new technologies. I am currently pursuing Data Management with training in <span className="font-medium">
+          Excel, SQL, Python and Power BI
+        </span>in looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        developer or data manager.
       </p>
 
       <p>
