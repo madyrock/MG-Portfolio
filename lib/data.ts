@@ -39,7 +39,7 @@ export const experiencesData = [
 {
     title: "Floor Manager",
     location: "Lucknow, India",
-    description: Managed daily operations, supervised staff, handled customer service, and supported membership management.
+    description: "Managed daily operations, supervised staff, handled customer service, and supported membership management.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2023",
   },
